@@ -1,0 +1,33 @@
+{
+  "name": "chat_application",
+  "version": "1.0.0",
+  "description": "A chat application using Node.Js, Socket.io and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAINIAbhishek/chat_application.git"
+  },
+  "keywords": [
+    "Node.Js",
+    "Express",
+    "Socket.io"
+  ],
+  "author": "Abhishek SAINI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAINIAbhishek/chat_application/issues"
+  },
+  "homepage": "https://github.com/SAINIAbhishek/chat_application#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
